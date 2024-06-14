@@ -15,7 +15,7 @@ E:/Dungeon Crawler/Github Project/DungeonCrawler
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58339
+51250
 Successfully changed project path to: E:/Dungeon Crawler/Github Project/DungeonCrawler
 E:/Dungeon Crawler/Github Project/DungeonCrawler
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Dungeon Crawler/Github Project/DungeonCrawler
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32100] Host "[IP] 172.27.15.128 [Port] 0 [Flags] 2 [Guid] 2970883788 [EditorId] 2970883788 [Version] 1048832 [Id] WindowsEditor(7,NS00J002010DE19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1188] Host "[IP] 172.27.14.145 [Port] 0 [Flags] 2 [Guid] 1666349375 [EditorId] 1666349375 [Version] 1048832 [Id] WindowsEditor(7,NS00J002010DE20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32100] Host "[IP] 172.27.15.128 [Port] 0 [Flags] 2 [Guid] 2970883788 [EditorId] 2970883788 [Version] 1048832 [Id] WindowsEditor(7,NS00J002010DE19) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1188] Host "[IP] 172.27.14.145 [Port] 0 [Flags] 2 [Guid] 1666349375 [EditorId] 1666349375 [Version] 1048832 [Id] WindowsEditor(7,NS00J002010DE20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 10.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -70,48 +70,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2022.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010555 seconds.
-- Loaded All Assemblies, in  0.386 seconds
+Registered in 0.010375 seconds.
+- Loaded All Assemblies, in  0.388 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.364 seconds
+- Finished resetting the current domain, in  0.361 seconds
 Domain Reload Profiling: 748ms
-	BeginReloadAssembly (115ms)
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (114ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
+		AnalyzeDomain (154ms)
 			TypeCache.Refresh (152ms)
 				TypeCache.ScanAssembly (138ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (365ms)
+	FinalizeReload (362ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (301ms)
+		SetupLoadedEditorAssemblies (299ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (115ms)
+			InitializePlatformSupportModulesInManaged (111ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (126ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,8 +119,8 @@ Domain Reload Profiling: 748ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.743 seconds
-Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.721 seconds
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -129,47 +129,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.740 seconds
-Domain Reload Profiling: 1479ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1455ms
+	BeginReloadAssembly (143ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (38ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (486ms)
-		LoadAssemblies (347ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (345ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (177ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (741ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (739ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (556ms)
+		SetupLoadedEditorAssemblies (549ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (357ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5327 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (390.8 KB). Loaded Objects now: 5790.
+Unloading 70 unused Assets / (414.2 KB). Loaded Objects now: 5790.
 Memory consumption went from 225.6 MB to 225.2 MB.
-Total: 2.386600 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.143600 ms MarkObjects: 1.806800 ms  DeleteObjects: 0.160700 ms)
+Total: 4.679600 ms (FindLiveObjects: 0.881100 ms CreateObjectMapping: 0.250900 ms MarkObjects: 3.250200 ms  DeleteObjects: 0.296200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,57 +186,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 154749.512887 seconds.
-  path: Assets/Models/Chesttextures
-  artifactKey: Guid(23ededb7a539a784c8138d106da9bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chesttextures using Guid(23ededb7a539a784c8138d106da9bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176ec35747c7e79e9e3bc1f4f3ef9a02') in 0.002835 seconds
+  Time since last request: 462499.595004 seconds.
+  path: Assets/Models/GrandEntranceDoor 1.fbx
+  artifactKey: Guid(30fc657aa90fa90439dee638d8cb95c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GrandEntranceDoor 1.fbx using Guid(30fc657aa90fa90439dee638d8cb95c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d4fe6816c5221ca74a645b64b8c8e3') in 1.084912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 55.690071 seconds.
+  path: Assets/Models/GrandEntranceDoorTextures
+  artifactKey: Guid(293c7bf5a02912746a50b29f11c845e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GrandEntranceDoorTextures using Guid(293c7bf5a02912746a50b29f11c845e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e992c8ca35ca285d849f548f254ba41') in 0.000688 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.561374 seconds.
-  path: Assets/Models/Chesttextures/Chest_lambert2_BaseColor.1001.png
-  artifactKey: Guid(c4cec87e33f775942b92bda3b49f90a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chesttextures/Chest_lambert2_BaseColor.1001.png using Guid(c4cec87e33f775942b92bda3b49f90a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6a9a89cdeff84fd9182edf4295d181') in 0.065864 seconds
+  Time since last request: 8.158494 seconds.
+  path: Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_lambert2_BaseColor.1001.png
+  artifactKey: Guid(7fccaf1614bc8ab4083bf8423f5ebf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_lambert2_BaseColor.1001.png using Guid(7fccaf1614bc8ab4083bf8423f5ebf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ccdc3bcfffa6fe035aa23bf45c6d38') in 0.088179 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.726169 seconds.
-  path: Assets/Models/Chesttextures/Chest_lambert2_Height.1001.png
-  artifactKey: Guid(b03abf5ee6fdf6a47af77ae2ea5f2954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chesttextures/Chest_lambert2_Height.1001.png using Guid(b03abf5ee6fdf6a47af77ae2ea5f2954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4735e6ba0b8e907f6f8e7b061147fb') in 0.023686 seconds
+  Time since last request: 0.001318 seconds.
+  path: Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_standardSurface1_Roughness.1001.png
+  artifactKey: Guid(bff7d513601298249a042256033d3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_standardSurface1_Roughness.1001.png using Guid(bff7d513601298249a042256033d3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0b0d17800fe876541245e9624b3a81') in 0.034236 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.756912 seconds.
-  path: Assets/Models/Chesttextures/Chest_lambert2_Metallic.1001.png
-  artifactKey: Guid(6d82875692291de4ab5789b2929f9588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chesttextures/Chest_lambert2_Metallic.1001.png using Guid(6d82875692291de4ab5789b2929f9588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713b14a672cb6dc29541cf1acf03d69f') in 0.025214 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_lambert2_Roughness.1001.png
+  artifactKey: Guid(ad4e39e82950ed446bdf8e4bd489ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_lambert2_Roughness.1001.png using Guid(ad4e39e82950ed446bdf8e4bd489ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e480afaf1bc390913257f6358e123ac6') in 0.039420 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.047622 seconds.
-  path: Assets/Models/Chesttextures/Chest_lambert2_Normal.1001.png
-  artifactKey: Guid(b910f968235004b4588bca44fd751f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chesttextures/Chest_lambert2_Normal.1001.png using Guid(b910f968235004b4588bca44fd751f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb89ed97a3ca353c1e494f8b2877578') in 0.023660 seconds
+  Time since last request: 0.000485 seconds.
+  path: Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_lambert2_Metallic.1001.png
+  artifactKey: Guid(5e6fe3e5ef1aaa940a237545f807c7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_lambert2_Metallic.1001.png using Guid(5e6fe3e5ef1aaa940a237545f807c7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1d69a9beae56c7699d843ab5d25eb5') in 0.051524 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.925380 seconds.
-  path: Assets/Models/Chesttextures/Chest_lambert2_Roughness.1001.png
-  artifactKey: Guid(bf35553fda689e24e92b9f458d971f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chesttextures/Chest_lambert2_Roughness.1001.png using Guid(bf35553fda689e24e92b9f458d971f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fafd6e0fc6eb43ec466d06072059c7') in 0.024266 seconds
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_standardSurface1_Normal.1001.png
+  artifactKey: Guid(bf08e301c96fb5146839a55d998339ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_standardSurface1_Normal.1001.png using Guid(bf08e301c96fb5146839a55d998339ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eae80d9b5886921fe03ac63e9f6e43') in 0.025823 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 25.363490 seconds.
-  path: Assets/Models/Chesttextures/M_Chest.mat
-  artifactKey: Guid(6faf275b3d436bf44a747d8cdd26677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chesttextures/M_Chest.mat using Guid(6faf275b3d436bf44a747d8cdd26677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48afe4e4ce715b597fba4fe7b719428') in 0.254009 seconds
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_standardSurface1_Metallic.1001.png
+  artifactKey: Guid(a495bfdf4644d5649af18bbef2968f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GrandEntranceDoorTextures/GrandEntranceDoor_standardSurface1_Metallic.1001.png using Guid(a495bfdf4644d5649af18bbef2968f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271044ea705ada288e18ea0d97326437') in 0.018872 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
